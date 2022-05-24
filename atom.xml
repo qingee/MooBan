@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.mooban.net</id>
+    <title>MooBan</title>
+    <updated>2022-05-24T16:38:36.231Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.mooban.net"/>
+    <link rel="self" href="https://www.mooban.net/atom.xml"/>
+    <subtitle>总有人间一两风，填我十万八千梦！</subtitle>
+    <logo>https://www.mooban.net/images/avatar.png</logo>
+    <icon>https://www.mooban.net/favicon.ico</icon>
+    <rights>All rights reserved 2022, MooBan</rights>
+    <entry>
+        <title type="html"><![CDATA[deepin美化系列教程（二）--plank dock]]></title>
+        <id>https://www.mooban.net/post/FeIlhtSub/</id>
+        <link href="https://www.mooban.net/post/FeIlhtSub/">
+        </link>
+        <updated>2022-04-29T13:33:14.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://www.mooban.net/post-images/1651239448474.png" alt="" loading="lazy"><br>
+上一集期教程介绍到顶栏的安装，但是里面我们把deepin自带的dock杀死了（deepin自带的dock叫dde-dock，记住名字后面会用到）。</p>
+<p>所以需要安装一个好看的、新的dock，这一集介绍--plank。</p>
+<p>安装命令:sudo apt install plank<br>
+<img src="https://www.mooban.net/post-images/1651239500806.webp" alt="" loading="lazy"><br>
+安装命令</p>
+<p><img src="https://www.mooban.net/post-images/1651239582549.webp" alt="" loading="lazy">点击启动</p>
+<p><img src="https://www.mooban.net/post-images/1651239597881.webp" alt="" loading="lazy"><br>
+plank dock出现了</p>
+<p>现在开始设置plank，鼠标放在dock栏上，ctrl+鼠标右键--首选项<br>
+<img src="https://www.mooban.net/post-images/1651239620732.webp" alt="" loading="lazy"><br>
+首选项<br>
+<img src="https://www.mooban.net/post-images/1651239634031.webp" alt="" loading="lazy"><br>
+我喜欢打开图标缩放，拉倒最大200<br>
+<img src="https://www.mooban.net/post-images/1651239666048.webp" alt="" loading="lazy"><br>
+选择避开最大化窗口，即只有窗口最大化时，dock才隐藏<br>
+到这里，plank的设置就完成了，接下来美化plank的主题样式<br>
+<img src="https://www.mooban.net/post-images/1651239698765.webp" alt="" loading="lazy"><br>
+plank的主题样式默认只有三个<br>
+plank dock因为是用gnome环境开发的，所以我们去gnome官网，下载几个主题，地址：https://www.gnome-look.org/<br>
+<img src="https://www.mooban.net/post-images/1651239714215.webp" alt="" loading="lazy"><br>
+进入docks条目<br>
+<img src="https://www.mooban.net/post-images/1651239727533.webp" alt="" loading="lazy"><br>
+点击plank项目<br>
+<img src="https://www.mooban.net/post-images/1651239744899.webp" alt="" loading="lazy"><br>
+这里的主题任你选择<br>
+我还是喜欢mac的dock样式，美的产品是会让人产生共鸣的，这一点不得不说，mac的UI设计确实超棒！<br>
+<img src="https://www.mooban.net/post-images/1651239758215.webp" alt="" loading="lazy"><br>
+滑动到下方，右下角有个流行度排行<br>
+<img src="https://www.mooban.net/post-images/1651239775066.webp" alt="" loading="lazy"><br>
+我用的是排名第一的主题，点击进去<br>
+<img src="https://www.mooban.net/post-images/1651239794816.webp" alt="" loading="lazy"><br>
+点击files<br>
+<img src="https://www.mooban.net/post-images/1651239806715.webp" alt="" loading="lazy"><br>
+点击想下载的主题<br>
+<img src="https://www.mooban.net/post-images/1651239824683.webp" alt="" loading="lazy"><br>
+为了演示，我随便下载了一个主题<br>
+<img src="https://www.mooban.net/post-images/1651239836316.webp" alt="" loading="lazy"><br>
+我们找到plank文件夹<br>
+<img src="https://www.mooban.net/post-images/1651239849316.webp" alt="" loading="lazy"><br>
+路径：/系统盘/usr/share/plank/themes<br>
+再次打开plank--首选项<br>
+<img src="https://www.mooban.net/post-images/1651239876682.webp" alt="" loading="lazy"><br>
+选择此主题<br>
+<img src="https://www.mooban.net/post-images/1651239890916.webp" alt="" loading="lazy"><br>
+效果样式<br>
+<img src="https://www.mooban.net/post-images/1651239903401.webp" alt="" loading="lazy"><br>
+原装样式<br>
+------------------------------------------分割线</p>
+<p>有朋友会问我，第一集教程，你的图片是怎么做到的？</p>
+<p>原理也是一样，由于dde环境（deepin的样式）也是根据gnome环境开发的，所以理论上gnome的icon图标，cursors鼠标样式，我们都能使用，放到相应的路径就可以了。</p>
+<p>由于deepin的icon图标与cursors鼠标是放在同一个路径，所以我下面演示一下更换icon图标，鼠标样式图标你们自行举一反三。<br>
+<img src="https://www.mooban.net/post-images/1651239917599.webp" alt="" loading="lazy"><br>
+icon图标默认路径<br>
+<img src="https://www.mooban.net/post-images/1651239930383.webp" alt="" loading="lazy"><br>
+icons文件夹内的主题，与系统--控制中心--个性化是一一对应的<br>
+<img src="https://www.mooban.net/post-images/1651239943516.webp" alt="" loading="lazy"><br>
+控制中心<br>
+接下来，还是登录gnome官网：https://www.gnome-look.org/<br>
+<img src="https://www.mooban.net/post-images/1651239955549.webp" alt="" loading="lazy"><br>
+下载icon主题<br>
+<img src="https://www.mooban.net/post-images/1651239975465.webp" alt="" loading="lazy"><br>
+右下角流行度排名选择自己喜欢的icon图标<br>
+<img src="https://www.mooban.net/post-images/1651239989899.webp" alt="" loading="lazy"><br>
+选好，下载即可<br>
+<img src="https://www.mooban.net/post-images/1651240003849.webp" alt="" loading="lazy"><br>
+管理员身份打开<br>
+由于icon图标与cursors鼠标图标，是放在/系统盘/usr/share/icons路径下的，需要打开管理员权限，才能复制、粘贴文件。<br>
+<img src="https://www.mooban.net/post-images/1651240018199.webp" alt="" loading="lazy"><br>
+复制主题文件进来</p>
+<p><img src="https://www.mooban.net/post-images/1651240033182.webp" alt="" loading="lazy"><br>
+在系统设置里，选择我们的主题</p>
+<p>接下来将常用的软件，放到plank dock托盘，有两种方式：</p>
+<p>一、打开某款软件，以obs为例<br>
+<img src="https://www.mooban.net/post-images/1651240048999.webp" alt="" loading="lazy"><br>
+右键obs，点击固定在dock<br>
+这种效率比较低，需要一个个打开软件</p>
+<p>二、进入路径：/系统盘/usr/share/applications<br>
+<img src="https://www.mooban.net/post-images/1651240067482.webp" alt="" loading="lazy"><br>
+拖曳到dock栏<br>
+<img src="https://www.mooban.net/post-images/1651240082298.webp" alt="" loading="lazy"><br>
+效果<br>
+------------------------------------------分割线</p>
+<p>帖子写到这里基本就结束了，但是要弥补一个第一集没有做的步骤，关闭deepin自带的dock自启动。</p>
+<p>deepin自带的dock栏叫dde-dock，它属于默认程序，会随着deepin开机启动，我们要手动将它的可执行权限关闭！</p>
+<p>进入路径：/系统盘/usr/bin目录下，这里教大家一个知识点--linux系统自带的程序，一般都在/系统盘usr/bin这个目录下，用户自行下载的程序一般在/系统盘/opt这个目录下。<br>
+<img src="https://www.mooban.net/post-images/1651240103232.webp" alt="" loading="lazy"><br>
+找到dde-dock，鼠标右键-属性<br>
+<img src="https://www.mooban.net/post-images/1651240116232.webp" alt="" loading="lazy"><br>
+以管理员身份打开此文件夹，将此文件的√取消<br>
+或者在此文件夹下打开终端，输入：sudo chmod -x dde-dock ，此命令为取消执行文件</p>
+<p>这样下次重启或者注销的时候，dde-dock就不会启动了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[deepin美化系列教程（一）--dde-top-panel]]></title>
+        <id>https://www.mooban.net/post/DQSB28NK6/</id>
+        <link href="https://www.mooban.net/post/DQSB28NK6/">
+        </link>
+        <updated>2022-04-29T11:14:47.000Z</updated>
+        <content type="html"><![CDATA[<p>前段时间我发了一个帖子，论坛里很多朋友问我是怎么做的？桌面环境很美观，也想学习一下我的美化过程。</p>
+<p>当时在帖子里答应的网友，迟一点会出一个deepin美化系列教程，趁着今天周末，安排一下。</p>
+<p>(为了给大家呈现原生式教程，我把deepin又重装了- -！)</p>
+<figure data-type="image" tabindex="1"><img src="https://www.mooban.net/post-images/1651231103245.png" alt="" loading="lazy"></figure>
+<p>1、dde-top-panel是什么？<br>
+dde-top-panel是deepin社区大神septemberhx开发的一款类mac顶栏程序，外观如图：</p>
+<figure data-type="image" tabindex="2"><img src="https://www.mooban.net/post-images/1651231166391.png" alt="" loading="lazy"></figure>
+<p>dde-top-panel是我美化deepin的第一步，详情请按如下操作：</p>
+<p>1、方式一：直接按照septemberhx大神的帖子操作https://bbs.deepin.org/post/195128#mod=viewthread&amp;tid=195128 ；</p>
+<p>2、方式二：按照我的教程如下</p>
+<p>第一步进入项目地址<a href="https://github.com/SeptemberHX/dde-top-panel">https://github.com/SeptemberHX/dde-top-panel</a>，从 release 下载 deb 文件后，进入下载文件夹 sudo dpkg -i DeepinV20-dde-top-panel-0.6.5-Linux  (有时候版本更新了，包名字不一样，确认好输出命令安装，教一个linux小技巧，输入文件首字母Dee+键盘Tab键会自动补全包名)，如下：</p>
+<p><img src="https://www.mooban.net/post-images/1651231233894.webp" alt="" loading="lazy"><br>
+<img src="https://www.mooban.net/post-images/1651231255527.webp" alt="" loading="lazy"><br>
+<img src="https://www.mooban.net/post-images/1651231277527.webp" alt="" loading="lazy"></p>
+<p>如果提示缺少依赖，执行sudo apt install -f，终端会自动补全所有依赖程序包。</p>
+<figure data-type="image" tabindex="3"><img src="https://www.mooban.net/post-images/1651231309278.webp" alt="" loading="lazy"></figure>
+<p>此时再次执行上次安装.deb包的命令： sudo dpkg -i +包名  ，安装即完成，可在启动菜单里，找到dde-top-panel程序。</p>
+<figure data-type="image" tabindex="4"><img src="https://www.mooban.net/post-images/1651231340295.webp" alt="" loading="lazy"></figure>
+<p>此时点击dde-top-panel，桌面顶部栏即会出现顶部面板</p>
+<figure data-type="image" tabindex="5"><img src="https://www.mooban.net/post-images/1651231358396.webp" alt="" loading="lazy"></figure>
+<p>——————————————————分割线</p>
+<p>设置dde-top-panel</p>
+<p>右键点击dde-top-panel面板--设置<br>
+<img src="https://www.mooban.net/post-images/1651231374380.webp" alt="" loading="lazy"><br>
+<img src="https://www.mooban.net/post-images/1651231414914.webp" alt="" loading="lazy"></p>
+<p>需要注意的是如果设置了跟随系统，那么设置的默认图标就不会生效。</p>
+<p>去除deepin自带的dock：<br>
+1、输入命令：gsettings set com.deepin.dde.watchdog dde-dock false</p>
+<p>2、杀死deepin自带的dock命令：killall dde-dock</p>
+<p>此方法来自于https://bbs.deepin.org/post/217918  打击越用户</p>
+<p><img src="https://www.mooban.net/post-images/1651231561402.webp" alt="" loading="lazy"><br>
+此时BUG消失,dde-top-panel的安装教程结束。</p>
+<p>——————————————————分割线</p>
+<p>安装完dde-top-panel之后，还需要安装一个类mac的全局菜单软件：dde-globalmenu-service</p>
+<p>项目地址：<a href="https://github.com/SeptemberHX/dde-globalmenu-service.git">https://github.com/SeptemberHX/dde-globalmenu-service.git</a>  ，下载最新 release 安装包,安装方式跟上面一样的逻辑。</p>
+<ul>
+<li>
+<p>安装即可，在 启动器中右键设置成自启动</p>
+</li>
+<li>
+<p>修改文件 ~/.gtkrc-2.0<br>
+<img src="https://www.mooban.net/post-images/1651231606919.webp" alt="" loading="lazy"></p>
+</li>
+</ul>
+<p>添加 gtk-modules=appmenu-gtk-module<br>
+<img src="https://www.mooban.net/post-images/1651231623820.webp" alt="" loading="lazy"></p>
+<ul>
+<li>修改文件 ～/.config/gtk-3.0/settings.ini</li>
+</ul>
+<p><img src="https://www.mooban.net/post-images/1651231645337.webp" alt="" loading="lazy"><br>
+  [Settings] 条目下 添加 gtk-modules=appmenu-gtk-module</p>
+<ul>
+<li>重启dde-top-panel或者注销</li>
+</ul>
+<p>——————————————————分割线</p>
+<p>到这里，dde-top-panel与dde-top-panel全局菜单安装就讲解完了，再次感谢septemberhx大神提供的软件。</p>
+<p>转自：甲壳虫米</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于Debian Linux的一些系统常用命令]]></title>
+        <id>https://www.mooban.net/post/deepin-linux/</id>
+        <link href="https://www.mooban.net/post/deepin-linux/">
+        </link>
+        <updated>2022-04-29T08:28:40.000Z</updated>
+        <content type="html"><![CDATA[<p>使用Linux系统的过程中经常需要用到一些命令，但又经常记不住这么多单词，本章内容与好友@Nil.零 共同完善，作下笔录。</p>
+<p>安装命令：<br>
+1、sudo apt install 软件名<br>
+2、sudo dpkg -i 软件名&amp;安装包<br>
+3、sudo apt -f -y install （ps：自动解决依赖问题）<br>
+4、sudo apt reinstall 软件名（ps：如果安装时发生错误，可以尝试重新安装）<br>
+升级命令：<br>
+1、sudo apt update   更新软件源<br>
+2、sudo apt upgrade   升级没有依赖关系的软件包<br>
+3、sudo apt dist-upgrade   解决依赖关系并升级<br>
+卸载命令：<br>
+1、sudo apt remove 软件名（ps：只卸载不删除配置文件）<br>
+2、sudo apt remove --purge 软件名（ps：删除包，包括删除配置文件等）<br>
+3、sudo apt autoremove（ps：删除程序和删除不再使用的依赖，千万不要用这个命令，会出现增加系统崩溃的概率）</p>
+]]></content>
+    </entry>
+</feed>
